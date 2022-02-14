@@ -13,18 +13,9 @@ export const AppBar = () => {
       <h1 className='text-xl font-bold'>
         🍃{' '}
         <Link to='/' className='decoration-amber-400 hover:underline'>
-          SKETCHES
+          TYPES &amp; SYNTHS
         </Link>
-        {sketch && ` · ${sketch.toUpperCase()}`}{' '}
-        {/* <small className='text-xs text-stone-500'>
-          by{' '}
-          <a
-            href='https://wh0am1.dev'
-            className='decoration-amber-400 hover:underline'
-          >
-            wh0am1
-          </a>
-        </small> */}
+        {sketch && ` · ${sketch.toUpperCase()}`}
       </h1>
       <button
         onClick={() => setDark(dark => !dark)}

@@ -9,7 +9,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build && cp CNAME dist",
     "deploy": "gh-pages -d dist",
     "clean": "yarn clean-build; yarn clean-cache",
     "clean-build": "rm -rf dist",

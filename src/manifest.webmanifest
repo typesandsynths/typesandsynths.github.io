@@ -1,11 +1,11 @@
 {
-  "short_name": "genuary",
-  "name": "wh0am1's genuary",
-  "description": "genuary sketches by wh0am1",
+  "short_name": "types&synths",
+  "name": "types & synths",
+  "description": "types & synths",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#222",
-  "background_color": "#222",
+  "theme_color": "#1c1917",
+  "background_color": "#1c1917",
   "icons": [
     {
       "src": "static/icon.png",
