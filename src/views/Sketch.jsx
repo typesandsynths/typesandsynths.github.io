@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { Warp } from '../sketches/Warp'
 
-export const SKETCHES = { warp: <Warp />, test: <></>, foo: <></>, bar: <></> }
+export const SKETCHES = { warp: <Warp /> }
 
 export const Sketch = () => {
   const { sketch } = useParams()
