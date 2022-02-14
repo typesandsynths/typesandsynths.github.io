@@ -19,6 +19,23 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image:alt" content="types & synths" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <script type="text/javascript">
+      if (window.location.search[1] === '/') {
+        const decoded = window.location.search
+          .slice(1)
+          .split('&')
+          .map(function (s) {
+            return s.replace(/~and~/g, '&')
+          })
+          .join('?')
+        window.history.replaceState(
+          null,
+          null,
+          window.location.pathname.slice(0, -1) + decoded + window.location.hash
+        )
+      }
+    </script>
   </head>
 
   <body>
