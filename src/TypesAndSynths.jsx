@@ -7,7 +7,7 @@ import { List } from './views/List'
 import { Sketch } from './views/Sketch'
 import './styles.css'
 
-const Genuary = () => (
+const TypesAndSynths = () => (
   <DarkMode>
     <BrowserRouter>
       <div className='flex flex-col h-screen max-h-screen'>
@@ -25,7 +25,7 @@ const Genuary = () => (
 
 render(
   <StrictMode>
-    <Genuary />
+    <TypesAndSynths />
   </StrictMode>,
   document.querySelector('#root')
 )
