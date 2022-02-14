@@ -1,0 +1,13 @@
+arrowParens: 'avoid'
+bracketSpacing: true
+bracketSameLine: false
+endOfLine: 'lf'
+jsxSingleQuote: true
+printWidth: 80
+proseWrap: 'preserve'
+quoteProps: 'as-needed'
+semi: false
+singleQuote: true
+tabWidth: 2
+trailingComma: 'es5'
+useTabs: false

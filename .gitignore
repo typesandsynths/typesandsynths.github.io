@@ -1,0 +1,14 @@
+# common
+.DS_Store
+thumbs.db
+temp
+tmp
+
+# project
+node_modules
+.parcel-cache
+*.log
+dist
+
+# environment
+.env.local
