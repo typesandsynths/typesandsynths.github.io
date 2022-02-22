@@ -14,6 +14,7 @@
     "start": "parcel",
     "build": "parcel build && cp CNAME dist",
     "deploy": "gh-pages -d dist",
+    "release": "yarn clean && yarn build && yarn deploy",
     "clean": "yarn clean-build; yarn clean-cache",
     "clean-build": "rm -rf dist",
     "clean-cache": "rm -rf .parcel-cache"
